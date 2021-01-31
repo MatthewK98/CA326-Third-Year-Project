@@ -1,10 +1,10 @@
-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/pLnG9m56/pexels-tirachard-kumtanom-733852.jpg);
+body { 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/6QSp9Zhj/pexels-shawn-stutzman-1010496.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  width: 20%;
-  height: 20px solid #fff;
+  width: 80%;
+  border: 20px solid #2370a5;
   font-family: source sans Pro, sans-serif;
   padding: 20px;
   margin: 20px auto;
@@ -21,10 +21,30 @@ body {
   color: #fff;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  font-weight; 600;
+  font-weight; 700;
 }
 .paragraph
 {
   border-left: 5px solid #2370a5;
   padding-left: 5px;
+}
+
+h2
+{
+  font-size: 2.0rem;
+  color: #fff;
+}
+
+hr
+{
+  border:0;
+  height:0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+p
+{
+  color: #fff;
+  font-weight: 600;
 }
