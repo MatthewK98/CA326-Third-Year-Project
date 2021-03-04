@@ -117,6 +117,17 @@
     </div>
     
     <h2>Sixth Blog</h2>
+    <p class = "paragraph">
+      In the sixth week we tried figuring out a way to pattern match by using a counter that measures how long the user will speak and another counter for counting the decibels. The thought process of this was that when a user speaks "Hello" and while checking the serial monitor the dB value ranges from 60 - 63 and appears 3 times in the serial which is the duration of how long it took to say the sentence. Conditions would be then placed to check for these values and display the corresponding animation</p>
+    <p><a href="https://gitlab.computing.dcu.ie/ocionnm3/2021-ca326-mkenny-clothing-basedwearabletechnology/commit/4544bed7a6f0823b03926dd9bd651cf548d36e51">Counter for duration of speaking</a></p>
+
+    <p class="paragraph">Matthew added Test 6 into the testing directory which explains the process of using the accelerometer mentioned in last weeks blog</p>
+
+    <p><a href="https://gitlab.computing.dcu.ie/ocionnm3/2021-ca326-mkenny-clothing-basedwearabletechnology/commit/e254eb831fc555784c4b506d3ab4a9bc90637e6b">Test 6</a></p>
+
+    <p class = "paragraph">We have been testing each of the components individually up to now and are working properly. A problem arised when you try to make all the components work together at the same time, the accelerometer inhibits the MAX7219 LED from lightning when initializing the library for the CircuitPlayground. We asked our supervisor what might be the problem and advided us that it might be problems within the SPI bus. This was the problem as when checking the libraries (CircuitPlayground.h and LEDcontrol.h) the SPI connections were conflicting. Numerous hours was spent trying to figure out how to create new connections for the SPI but failed and decided to buy a different LED Matrix which had less Pins needed to run it. The WS218 LED panel was the solution for this as it only needed 3 Pins DIN, 5V and GND. A new library was used and a different way of mapping animations into the LED panel. The new panel was also smaller and more appropriate to be put in a mask and allowed for colors to change which the other did not. </p>
+
+    <p><a href="https://gitlab.computing.dcu.ie/ocionnm3/2021-ca326-mkenny-clothing-basedwearabletechnology/commit/4b27aa35b7222b508bc893c0679a35217661c4d0?w=1">Components all working together without issue</a></p>
 
 <hr> <! -- Break line -->
     <div class="blog"> 
@@ -124,6 +135,10 @@
     </div>
     
     <h2>Seventh Blog</h2>
+
+    <p class = "paragraph">In the seventh week the technical manual for the project was started and added detailed descriptions of the project set out by headings in the example provided in the 3rd Year Project website.</p>
+
+    <p><a href="https://gitlab.computing.dcu.ie/ocionnm3/2021-ca326-mkenny-clothing-basedwearabletechnology/commit/741f0164a388aded4594cd7eaf7bea68ed8091c7">Technical Manual (md File)</a></p>
 
 <hr> <! -- Break line -->
     <div class="blog"> 
